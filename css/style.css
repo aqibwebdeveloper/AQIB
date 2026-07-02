@@ -1,0 +1,253 @@
+body{
+    overflow-x: hidden;
+}
+ul{
+    text-decoration: none;
+}
+.list-style-type{
+    list-style-type: none;
+}
+.navbar-brand{
+    margin-left: 150px;
+}
+.navbar-collapse{
+    margin-left: 600px;
+}
+.section-1{
+    height: 300px;
+}
+.carousel-caption{
+    margin-bottom: 250px;
+}
+.filter{
+    filter: brightness(0.5);
+}
+.completed-projects{
+    background-color: blue;
+    height: 200px;
+}
+.Years-expirience{
+    background-color: red;
+    height: 200px;
+}
+.b-t{
+    border-top: 10px solid blue;
+    position: relative;
+    top: -150px;
+    background-color: white;
+}
+.margin-t{
+    position: relative;
+    top: 30px;
+}
+.sizing{
+    height: 500px;
+    flex-direction: column;
+}
+.steel-img{
+    background-image: url(../images/steel.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bg-1{
+    background-image: url(../images/bg\(1\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-2{
+    background-image: url(../images/bg\ \(2\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-3{
+    background-image: url(../images/bg\(3\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.arrow-btn{
+    margin-left: 210px;
+}
+.btn-2{
+    margin-left: 210px;
+    background-color: darkblue;
+}
+.b-t-2{
+    border-top: 10px solid red;
+    position: relative;
+    top: -100px;
+    background-color: white;
+}
+.bg-comment, .bg-right-quote{
+    background-color: darkblue;
+}
+.white-space{
+    white-space: nowrap;
+}
+.f-griedient{
+    background-image: linear-gradient(to left, darkblue, red );
+}
+
+
+/* About page work */
+header{
+    background-image: linear-gradient(to left, red,darkblue);
+}
+
+.exprience{
+    width: 200px;
+    height: 125px;
+    position: relative;
+    top: -150px;
+    left: 25px;
+}
+.text{
+    position: relative;
+    bottom: 450px;
+}
+.dark-blue{
+    color: darkblue;
+}
+.dark-blue-1{
+    background-color: darkblue;
+}
+.number-container{
+    position: relative;
+    bottom: 245px;
+}
+
+@media screen and (min-width:992px) {
+    .header-responsive{
+        position: relative;
+        right: 200px;
+    }
+}
+@media screen and (min-width:1200px) {
+    .header-responsive{
+        position: relative;
+        right: 100px;
+    }
+}
+@media screen and (min-width:1400px) {
+    .header-responsive{
+        position: relative;
+        right: -20px;
+    }
+}
+
+
+/* porfolio archive */
+
+.heading-crousel{
+    position: relative;
+    bottom: 230px;
+    left: 80px;
+}
+
+.heading-crousel-1{
+    position: relative;
+    bottom: 230px;
+    left: 80px;
+}
+
+.text-2{
+    width: 400px;
+    height: 150px;
+    border-top: 10px solid red;
+    position: relative;
+    left: 800px;
+    bottom: 120px;
+    background-color: white;
+}
+
+/* responsive for class text-2 "About work" */
+
+@media screen and (max-width:600px) {
+    .text-2{
+        width: 300px;
+        height: 100px;
+        position: relative;
+        top: -80px;
+        left: 100px;
+    }
+}
+@media screen and (min-width:601px) {
+    .text-2{
+        width: 400px;
+        height: 150px;
+        position: relative;
+        left: 170px;
+    }
+}
+@media screen and (min-width:1000px) {
+    .text-2{
+        width: 450px;
+        height: 150px;
+        position: relative;
+        left: 500px;
+    }    
+}
+@media screen and (min-width:1300px) {
+    .text-2{
+        width: 450px;
+        height: 170px;
+        position: relative;
+        left: 750px;
+    }
+}
+@media screen and (min-width:1400px) {
+    .text-2{
+        width: 450px;
+        height: 170px;
+        position: relative;
+        left: 900px;
+    }
+}
+
+/* man image section resposive */
+
+@media screen and (min-width:992px) {
+    .man-image-section{
+        position: relative;
+        left: ;
+    }
+}
+
+/* images */
+
+.pic{
+    background-image: url(../images/Picture.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pic-1{
+    background-image: url(../images/Picture\ \(1\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pic-2{
+    background-image: url(../images/Picture\ \(2\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* single service */
+
+.col-top-border{
+    border-top: 10px solid red;
+} 
+/* contact */
+.b-left{
+    border-left: 10px solid red;
+}
+@media screen and (max-width:600px) {
+    .flex{
+        display: block;
+    }
+}
